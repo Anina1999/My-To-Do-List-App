@@ -1,0 +1,38 @@
+body {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    background-image: url('sakura.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #662e40;
+}
+
+.container {
+    background: #faacd5;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 2px solid #662e40;
+    width: 100%;
+    max-width: 400px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
