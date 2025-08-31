@@ -36,3 +36,29 @@ input {
     flex: 1;
     padding: 10px;
 }
+
+#task-input::placeholder {
+  color: #999999;      
+  font-style: italic;
+  opacity: 1;    
+  font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #fc466b, #42a1ff);
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    animation: glow 3s linear infinite;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(255,255,255,0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #fa385f, #3497fa);
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #46fcfc;
+}
