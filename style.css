@@ -62,3 +62,58 @@ button:hover {
     transform: scale(1.05);
     box-shadow: 0 0 25px #46fcfc;
 }
+
+ol#task-list {
+  counter-reset: task-counter;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ol#task-list li {
+  counter-increment: task-counter;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #662e40;
+  background: #faacd5;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+ol#task-list li .number {
+  flex-shrink: 0;
+  width: 25px;
+  font-weight: bold;
+  color: #662e40;
+  text-align: right;
+  margin-right: 10px;
+}
+
+ol#task-list li span {
+  flex-grow: 1;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  margin-right: 10px;
+  max-width: calc(100% - 25px - 60px);
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: rgb(166, 177, 228);
+}
+
+li button {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+  width: 60px;
+}
