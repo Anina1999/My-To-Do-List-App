@@ -117,3 +117,36 @@ li button {
   flex-shrink: 0;
   width: 60px;
 }
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #fcba03,
+                     0 0 20px #fcba03,
+                     0 0 30px #fcba03;
+    }
+
+    25% {
+        text-shadow: 0 0 15px #03ff07,
+                     0 0 25px #03ff07;
+        
+    }
+
+    50% {
+        text-shadow: 0 0 10px #ff5842,
+                     0 0 20px #ff5842,
+                     0 0 30px #ff5842;
+        box-shadow: 0 0 20px #ff5842;
+    }
+
+    75% {
+        text-shadow: 0 0 15px #782871,
+                     0 0 25px #782871;
+        box-shadow: 0 0 15px #782871;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #fcba03,
+                     0 0 20px #fcba03,
+                     0 0 30px #fcba03;
+    }
+}
