@@ -23,6 +23,8 @@ The app features a soft and cheerful UI with a sakura background, pink color pal
 This project is part of my learning journey in web development.
 I really enjoyed building this project, which is part of my learning journey in web development. I am taking my first steps by creating simple projects, that i am planning to improve in future.
 
-Here is an example --> ![Screenshot of my webpage](<img width="1343" height="650" alt="Image" src="https://github.com/user-attachments/assets/ff5fbe68-ac8a-4f6b-93e2-d251c0f1c715" />)
+Here is an example -->
+
+![Screenshot of my webpage](https://github.com/user-attachments/assets/ff5fbe68-ac8a-4f6b-93e2-d251c0f1c715)
 
 If you like this project, feel free to ⭐ star the repo!
