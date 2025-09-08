@@ -1,7 +1,9 @@
 🌸 My To-Do List App 🌸
+
 This is a simple To-Do List web app built with HTML, CSS, and JavaScript. It allows users to add tasks, mark them as completed, and delete them. Tasks are saved in the browser using LocalStorage, so they stay even after refreshing the page.
 
 🖼️ Design
+
 The app features a soft and cheerful UI with a sakura background, pink color palette, and animated buttons to create an enjoyable and user-friendly experience.
 
  Features:
