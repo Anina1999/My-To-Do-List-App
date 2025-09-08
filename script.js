@@ -24,7 +24,21 @@ function addTask(text, isCompleted = false) {
         li.classList.add('completed');
     }
 
+    li.addEventListener('click', function () {
+        li.classList.toggle('completed');
+        saveTasks();
+    });
+
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Delete';
+    deleteButton.addEventListener('click', function (e) {
+        e.stopPropagation();
+        li.remove();
+        saveTasks();
+    });
+    
     li.appendChild(span);
+    li.appendChild(deleteButton);
     taskList.appendChild(li);
     saveTasks();
 }
