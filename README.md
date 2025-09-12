@@ -27,6 +27,10 @@ I really enjoyed building this project, which is part of my learning journey in 
 
 ![Screenshot of my webpage](https://github.com/user-attachments/assets/ff5fbe68-ac8a-4f6b-93e2-d251c0f1c715)
 
+## Check out the live version of the app here:  
+
+[https://anina1999.github.io/My-To-Do-List-App/](https://anina1999.github.io/My-To-Do-List-App/)
+
 ## LICENSE
 
 This project is open for educational use and personal learning.
